@@ -22,6 +22,7 @@
 build/
 dist/
 out/
+.venv/
 
 # Editor
 *~
