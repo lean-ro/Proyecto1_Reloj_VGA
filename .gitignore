@@ -1,0 +1,30 @@
+# Vivado
+*.jou
+*.log
+*.str
+*.cache
+*.hw
+*.ip_user_files
+*.runs
+*.sim
+*.gen
+*.xpr
+*.srcs
+.Xil/
+
+# Simulación
+*.vcd
+*.wdb
+*.pb
+*.xml
+
+# Build
+build/
+dist/
+out/
+.venv/
+
+# Editor
+*~
+*.swp
+.DS_Store
