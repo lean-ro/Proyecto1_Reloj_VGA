@@ -276,7 +276,10 @@ docs/diagrams/block_diagram.md
 ```
 
 ---
-
+## Consumo general de recursos 
+| Módulo        | Slice LUTs | Slice Registers | F7 Muxes | F8 Muxes | Slice | LUT as Logic | Block RAM Tile | DSPs | Bonded IOB | BUFGCTRL |
+|----------------|------------|------------------|-----------|-----------|-------|---------------|----------------|------|-------------|-----------|
+| top_clock_vga | 7780       | 186              | 736       | 110       | 2186  | 7780          | 120            | 2    | 22          | 2         |
 ## Resumen del diseño
 
 Este proyecto implementa un reloj digital con salida VGA en una FPGA **Nexys A7-100T**. El sistema integra control de tiempo, acondicionamiento de entradas, generación de imagen, almacenamiento en VRAM y visualización VGA. La arquitectura modular facilita la simulación, integración y depuración de cada bloque funcional.
